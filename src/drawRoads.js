@@ -24,7 +24,7 @@ export default (svg, pathCreator) => {
       .attr('class', 'road')
       .attr('d', pathCreator)
       .attr('fill', 'none')
-      .attr('stroke', 'black')
+      .attr('stroke', 'blue')
       .attr('stroke-width', getRoadWidth)
       .attr('stroke-linecap', 'round')
 }
